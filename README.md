@@ -3,7 +3,7 @@
 ![spiral_matrix](https://github.com/yuanyesjtu/spiral_matrix/blob/master/spiral_matrix.jpg)
 
 图中矩阵行列数为5*5，螺旋中心等于矩阵中心。<br>
-可以发现，赋值路线为：→↓←←↑↑ →→→↓↓↓←←←←↑↑↑↑ ......<br>
+可以发现，赋值路线为：→↓←←↑↑ →→→↓↓↓←←←←↑↑↑↑ ...<br>
 每次循环包括四个方向，分别是：右下左上。对于第iter_idx次循环，向右和向下分别赋值2*iter_idex-1次，向左向上分别赋值2*iter_idex次。<br>
 注意：在赋值过程中，要判断是否超过矩阵边界；螺旋中心不一定是矩阵中心；当螺旋中心不是矩阵中心时，比如下图：<br>
 ![spiral_matrix1](https://github.com/yuanyesjtu/spiral_matrix/blob/master/spiral_matrix1.jpg)
